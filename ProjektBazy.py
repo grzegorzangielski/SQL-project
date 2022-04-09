@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[29]:
-
-
 import psycopg2
 def lista_k(numer_wyborow):
     try:
@@ -266,7 +260,6 @@ def poczatek():
         poczatek()
 
 
-# In[ ]:
 
 
 con = psycopg2.connect( host = "localhost", database = "Projekt", user = "postgres", password = "password")
@@ -274,7 +267,6 @@ poczatek()
 con.close()
 
 
-# In[ ]:
 
 
 
